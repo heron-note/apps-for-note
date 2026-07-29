@@ -1,11 +1,11 @@
 {
-    "name": "daily_app_prj",
-    "short_name": "daily_app_prj",
+    "name": "へろん工房",
+    "short_name": "へろん工房",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#2E7D63",
+    "theme_color": "#2E7D63",
+    "description": "へろん工房が公開している、ブラウザだけで動く実用ツール集。",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
