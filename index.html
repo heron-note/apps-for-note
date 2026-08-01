@@ -1,62 +1,42 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="へろん工房が公開している、ブラウザだけで動く実用ツール集。" />
 
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
+    <!-- OGP / Twitter Card. One shared image/description site-wide, not per
+         tool: every deep link on this static site serves this same
+         index.html body (see docs/ARCHITECTURE.md's 404.html fallback), so a
+         crawler reading meta tags always sees this page regardless of which
+         tool's URL was actually shared. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="へろん工房" />
+    <meta property="og:title" content="へろん工房 | 実用ツール集" />
+    <meta property="og:description" content="ブラウザだけで動く、CSVなどの実用ツールを日々公開しています。" />
+    <meta property="og:image" content="https://heron-note.github.io/apps-for-note/ogp-default.png" />
+    <meta property="og:url" content="https://heron-note.github.io/apps-for-note/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="へろん工房 | 実用ツール集" />
+    <meta name="twitter:description" content="ブラウザだけで動く、CSVなどの実用ツールを日々公開しています。" />
+    <meta name="twitter:image" content="https://heron-note.github.io/apps-for-note/ogp-default.png" />
 
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+    <!-- iOS meta tags & icons -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="へろん工房" />
+    <link rel="apple-touch-icon" href="/apps-for-note/icons/Icon-192.png" />
 
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="/apps-for-note/">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/apps-for-note/favicon.png" />
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="へろん工房が公開している、ブラウザだけで動く実用ツール集。">
-
-  <!-- OGP / Twitter Card. One shared image/description site-wide, not per
-       tool: every deep link on this static site serves this same
-       index.html body (see docs/ARCHITECTURE.md's 404.html fallback), so a
-       crawler reading meta tags always sees this page regardless of which
-       tool's URL was actually shared. -->
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="へろん工房">
-  <meta property="og:title" content="へろん工房 | 実用ツール集">
-  <meta property="og:description" content="ブラウザだけで動く、CSVなどの実用ツールを日々公開しています。">
-  <meta property="og:image" content="https://heron-note.github.io/apps-for-note/ogp-default.png">
-  <meta property="og:url" content="https://heron-note.github.io/apps-for-note/">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="へろん工房 | 実用ツール集">
-  <meta name="twitter:description" content="ブラウザだけで動く、CSVなどの実用ツールを日々公開しています。">
-  <meta name="twitter:image" content="https://heron-note.github.io/apps-for-note/ogp-default.png">
-
-  <!-- iOS meta tags & icons -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="へろん工房">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
-
-  <title>へろん工房 | 実用ツール集</title>
-  <link rel="manifest" href="manifest.json">
-</head>
-<body>
-  <!--
-    You can customize the "flutter_bootstrap.js" script.
-    This is useful to provide a custom configuration to the Flutter loader
-    or to give the user feedback during the initialization process.
-
-    For more details:
-    * https://docs.flutter.dev/platform-integration/web/initialization
-  -->
-  <script src="flutter_bootstrap.js" async></script>
-</body>
+    <title>へろん工房 | 実用ツール集</title>
+    <link rel="manifest" href="/apps-for-note/manifest.json" />
+    <script type="module" crossorigin src="/apps-for-note/assets/index-Bxwku6-e.js"></script>
+    <link rel="stylesheet" crossorigin href="/apps-for-note/assets/index-CZT-v4sH.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
